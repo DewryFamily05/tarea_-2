@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 60px;
+}
+
+.contenedorCalculadora{
+    padding: 10px;
+    width: 450px;
+    margin: 0px auto;
+}
+
+.cuerpoCalculadora{
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+
+    background: rgba(20,16,20,1);
+    background: -moz-linear-gradient(-45deg, rgba(20,16,20,1) 0%, rgba(20,16,20,1) 6%, rgba(5,5,5,1) 12%, rgba(8,2,8,1) 15%, rgba(3,2,3,1) 32%, rgba(20,20,20,1) 32%, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 51%, rgba(8,2,8,1) 53%, rgba(0,0,0,1) 60%, rgba(5,4,5,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(20,16,20,1)), color-stop(6%, rgba(20,16,20,1)), color-stop(12%, rgba(5,5,5,1)), color-stop(15%, rgba(8,2,8,1)), color-stop(32%, rgba(3,2,3,1)), color-stop(32%, rgba(20,20,20,1)), color-stop(39%, rgba(0,0,0,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(53%, rgba(8,2,8,1)), color-stop(60%, rgba(0,0,0,1)), color-stop(76%, rgba(5,4,5,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(20,16,20,1) 0%, rgba(20,16,20,1) 6%, rgba(5,5,5,1) 12%, rgba(8,2,8,1) 15%, rgba(3,2,3,1) 32%, rgba(20,20,20,1) 32%, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 51%, rgba(8,2,8,1) 53%, rgba(0,0,0,1) 60%, rgba(5,4,5,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(20,16,20,1) 0%, rgba(20,16,20,1) 6%, rgba(5,5,5,1) 12%, rgba(8,2,8,1) 15%, rgba(3,2,3,1) 32%, rgba(20,20,20,1) 32%, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 51%, rgba(8,2,8,1) 53%, rgba(0,0,0,1) 60%, rgba(5,4,5,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(20,16,20,1) 0%, rgba(20,16,20,1) 6%, rgba(5,5,5,1) 12%, rgba(8,2,8,1) 15%, rgba(3,2,3,1) 32%, rgba(20,20,20,1) 32%, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 51%, rgba(8,2,8,1) 53%, rgba(0,0,0,1) 60%, rgba(5,4,5,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    background: linear-gradient(135deg, rgba(20,16,20,1) 0%, rgba(20,16,20,1) 6%, rgba(5,5,5,1) 12%, rgba(8,2,8,1) 15%, rgba(3,2,3,1) 32%, rgba(20,20,20,1) 32%, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 51%, rgba(8,2,8,1) 53%, rgba(0,0,0,1) 60%, rgba(5,4,5,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141014', endColorstr='#131313', GradientType=1 );
+}
+
+.contenidoCalculadora{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+
+    background: rgba(135,135,135,1);
+    background: -moz-linear-gradient(left, rgba(135,135,135,1) 0%, rgba(133,133,133,1) 0%, rgba(125,125,125,1) 51%, rgba(153,153,153,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(135,135,135,1)), color-stop(0%, rgba(133,133,133,1)), color-stop(51%, rgba(125,125,125,1)), color-stop(100%, rgba(153,153,153,1)));
+    background: -webkit-linear-gradient(left, rgba(135,135,135,1) 0%, rgba(133,133,133,1) 0%, rgba(125,125,125,1) 51%, rgba(153,153,153,1) 100%);
+    background: -o-linear-gradient(left, rgba(135,135,135,1) 0%, rgba(133,133,133,1) 0%, rgba(125,125,125,1) 51%, rgba(153,153,153,1) 100%);
+    background: -ms-linear-gradient(left, rgba(135,135,135,1) 0%, rgba(133,133,133,1) 0%, rgba(125,125,125,1) 51%, rgba(153,153,153,1) 100%);
+    background: linear-gradient(to right, rgba(135,135,135,1) 0%, rgba(133,133,133,1) 0%, rgba(125,125,125,1) 51%, rgba(153,153,153,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#878787', endColorstr='#999999', GradientType=1 );
+}
+
+.historialNum{
+    padding: 10px;
+    margin: 10px 100px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    border-style: solid;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-color: black;
+}
+
+.pantallaPrin{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 0px 20px 10px 5Spx;
+    font-weight: bold;
+    border-width: 4px;
+}
+
+.contenedorBotones{
+    text-align: center;
+}
+
+input[type=button]{
+    border-radius: 20px;
+    padding: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+input[type=button]:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 10px white;
+}
+
+.dobleCero, .btnIgual{
+    padding: 20px 68px !important;
+}
+
+.btnPunto{
+    padding: 28px 30px !important;
+}
+
+.signoOperador{
+    font-size: 25px;
+    margin-left: 5px;
+    font-weight: bold;
+    background-color: white;
+    padding: 2px 8px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+@keyframes parpadeoFocus{
+    from{
+        background-color: grey;
+        box-shadow: 0px 0px 5px 5px grey;
+    }
+
+    to{
+        background-color: white;
+    }
+}
+
+.pantallaPrin:focus, .btnIgual:focus{
+    animation-name: parpadeoFocus ;
+    animation-duration: 1s;
+}
+
+.formulario{
+    padding: 15px;
+    width: 450px;
+    margin: 0px auto;
+}
+
+.history{
+    width: 500px;
+    height: 371.2px;
+    overflow-y: scroll;
+    font-size: 1.1em;
+    background: #4b7bec;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.history h3{
+    padding: 10px 0px;
+    font-size: 1.2em;
+}

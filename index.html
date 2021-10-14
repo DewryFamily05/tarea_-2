@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="index.css" media="all">
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+        <br>
+
+        <form action="" class="formulario">
+        <div class="contenedorCalculadora">
+            <div class="cuerpoCalculadora">
+                <div class="contenidoCalculadora">
+                    <div class="historialNum">
+
+                        <label class="Num1Historial" id="Num1Historial"></label>
+                        <label class="operadorHistorial" id="operadorHistorial"></label>
+                        <label class="Num2Historial" id="Num2Historial"></label>
+                    </div>
+                        <div class="pantalla">
+                            <input type="text" class="pantallaPrin" id="pantallaPrin">
+                            <label class="signoOperador" id="signoOperador"></label>
+                        </div>
+                        <div class="contenedorBotones">
+
+                            <input type="button" value="1" name="btnNumeros">
+                            <input type="button" value="2" name="btnNumeros">
+                            <input type="button" value="3" name="btnNumeros">
+                            <input type="button" value="+" id="btnSumar" onclick="suma()">
+                            <br>
+                            <input type="button" value="4" name="btnNumeros">
+                            <input type="button" value="5" name="btnNumeros">
+                            <input type="button" value="6" name="btnNumeros">
+                            <input type="button" value="-" id="btnRestar" onclick="resta()">
+                            <br>
+                            <input type="button" value="7" name="btnNumeros">
+                            <input type="button" value="8" name="btnNumeros">
+                            <input type="button" value="9" name="btnNumeros">
+                            <input type="button" value="x" id="btnMultiplicar" onclick="multiplicacion()">
+                            <br>
+                            <input type="button" value="0" name="btnNumeros">
+                            <input type="button" value="." name="btnNumeros" class="btnPunto">
+                            <input type="button" value="C" onclick="reinicio()">
+                            <input type="button" value="/" id="btnDividir" onclick="division()">
+                            <br>
+                            <input type="button" value="00" name="btnNumeros" class="dobleCero">
+                            <input type="button" value="=" class="btnIgual" id="btnIgual" onclick="resultadoFinal()">
+
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </form>
+    <div id="history" class="history">
+        <h3>History</h3>
+    </div>
+
+    <div id="resultado">
+        
+    </div>
+    </body>
+    <script type="text/javascript" src="index.js"></script>
+</html>
